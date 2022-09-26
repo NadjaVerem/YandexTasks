@@ -17,6 +17,7 @@ find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick REQUIRED)
 set(PROJECT_SOURCES
         main.cpp
         Task_1_3.h Task_1_3.cpp
+        Task_1_4.h Task_1_4.cpp
         qml.qrc
 )
 

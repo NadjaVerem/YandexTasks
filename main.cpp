@@ -12,10 +12,10 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     Task_1_3 task_1_3;
-    task_1_3.exercise_1_3_3();
-    task_1_3.exercise_1_3_4();
-    task_1_3.exercise_1_3_5();
-    task_1_3.exercise_1_3_6();
+//    task_1_3.exercise_1_3_3();
+//    task_1_3.exercise_1_3_4();
+//    task_1_3.exercise_1_3_5();
+//    task_1_3.exercise_1_3_6();
     task_1_3.exercise_1_3_7();
 
 
