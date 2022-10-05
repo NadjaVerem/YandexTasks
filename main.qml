@@ -6,4 +6,10 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+    
+    function exercise_1_3_3() {
+        var n;
+        n = 10;
+        console.log(n % 10);
+    }
 }

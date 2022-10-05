@@ -12,21 +12,28 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     Task_1_3 task_1_3;
-//    task_1_3.exercise_1_3_3();
-//    task_1_3.exercise_1_3_4();
-//    task_1_3.exercise_1_3_5();
-//    task_1_3.exercise_1_3_6();
-    task_1_3.exercise_1_3_7();
+    //    task_1_3.exercise_1_3_3();
+    //    task_1_3.exercise_1_3_4();
+    //    task_1_3.exercise_1_3_5();
+    //    task_1_3.exercise_1_3_6();
+    //    task_1_3.exercise_1_3_7();
+    Task_1_4 task_1_4;
+    task_1_4.exercise_1_4_1();
+    task_1_4.exercise_1_4_2();
+    task_1_4.exercise_1_3_4();
+    task_1_4.exercise_1_3_5();
+    task_1_4.exercise_1_3_6();
 
 
-//    QQmlApplicationEngine engine;
-//    const QUrl url(QStringLiteral("qrc:/main.qml"));
-//    QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
-//                     &app, [url](QObject *obj, const QUrl &objUrl) {
-//        if (!obj && url == objUrl)
-//            QCoreApplication::exit(-1);
-//    }, Qt::QueuedConnection);
-//    engine.load(url);
+
+    //    QQmlApplicationEngine engine;
+    //    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    //    QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
+    //                     &app, [url](QObject *obj, const QUrl &objUrl) {
+    //        if (!obj && url == objUrl)
+    //            QCoreApplication::exit(-1);
+    //    }, Qt::QueuedConnection);
+    //    engine.load(url);
 
     return app.exec();
 }
